@@ -5,7 +5,39 @@ body {
 }
 
 .isActive {
-    color: lightsteelblue;
+    color: darkorange;
+    text-decoration: underline;
+}
+
+.content {
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+.content a {
+    color: yellow;
+}
+
+.content a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.content h3 {
+    color: rgb(86, 86, 209);
+}
+
+.content h2 {
+    color: rgb(86, 86, 209);
+}
+
+.content h1 {
+    color: rgb(86, 86, 209);
+}
+
+.content .siteTitle {
+    text-decoration: underline;
+    color: darkorange
 }
 
 a {
@@ -38,6 +70,7 @@ a:hover {
     margin-top: 25px;
     margin-left: 10%;
     margin-right: 10%;
+    color: whitesmoke;
 }
 
 .bottombar {
@@ -55,9 +88,4 @@ a:hover {
     background-color: darkslategray;
     border-color: darkslategray;
     margin-bottom: 5px;
-}
-
-.content {
-    margin-left: 13%;
-    margin-right: 13%;
 }
