@@ -4,4 +4,5 @@ Disallow: /go/
 Disallow: /mail/
 Disallow: /404.html
 Disallow: /impressum
+Disallow: /README.md
 Sitemap: https://chris-prickartz.de/sitemap.xml
