@@ -1,0 +1,18 @@
+<urlset>
+    <url>
+        <loc>https://chris-prickartz.de/</loc>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://chris-prickartz.de/social/</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://chris-prickartz.de/projekte/</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://chris-prickartz.de/kontakt/</loc>
+        <priority>0.80</priority>
+    </url>
+</urlset>

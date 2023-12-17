@@ -3,3 +3,5 @@ User-agent: *
 Disallow: /go/
 Disallow: /mail/
 Disallow: /404.html
+Disallow: /impressum
+Sitemap: https://chris-prickartz.de/sitemap.xml
