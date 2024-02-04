@@ -1,1 +1,2 @@
-Persönliche Webseite (new repo to clean up commit history)
+Personal webpage:
+This is my personal webpage chris-prickartz.de
