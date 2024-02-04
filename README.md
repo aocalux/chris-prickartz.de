@@ -1,2 +1,1 @@
-# chris-prickartz.de-new
-Personal webpage 
+Persönliche Webseite (new repo to clean up commit history)

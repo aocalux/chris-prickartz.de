@@ -1,0 +1,10 @@
+body {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error {
+    font-weight: bolder;
+    font-size: 400%;
+}
