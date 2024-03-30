@@ -9,4 +9,5 @@ Disallow: /admin/
 Disallow: /datenschutz.pdf/
 Disallow: /dateien/no_search/
 Disallow: /blog/
+Disallow: /vorlage_weiterleitung.html
 Sitemap: https://chris-prickartz.de/sitemap.xml
