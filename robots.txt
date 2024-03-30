@@ -6,6 +6,7 @@ Disallow: /404.html
 Disallow: /impressum/
 Disallow: /README.md
 Disallow: /admin/
-Disallow: /dateien/
+Disallow: /datenschutz.pdf/
+Disallow: /dateien/no_search/
 Disallow: /blog/
 Sitemap: https://chris-prickartz.de/sitemap.xml
