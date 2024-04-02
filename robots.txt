@@ -10,5 +10,5 @@ Disallow: /datenschutz.pdf/
 Disallow: /dateien/no_search/
 Disallow: /blog/
 Disallow: /vorlage_weiterleitung.html
-Disallow: /fonts/
+Disallow: /style/fonts/
 Sitemap: https://chris-prickartz.de/sitemap.xml
