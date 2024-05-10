@@ -96,3 +96,53 @@ a:hover {
     border-color: darkslategray;
     margin-bottom: 5px;
 }
+
+/* For smaller screens */
+@media only screen and (max-width: 1024px) {
+    .content {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .title {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .topbar {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .bottombar {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+/* For lager screens */
+@media only screen and (min-width: 1930px) {
+    .content {
+        width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title {
+        width: 1560px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .topbar {
+        width: 1560px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bottombar {
+        width: 1560px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
