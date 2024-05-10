@@ -97,6 +97,14 @@ a:hover {
     margin-bottom: 5px;
 }
 
+.notMobileTopBar {
+    display: inline;
+}
+
+.mobileTopBar {
+    display: none;
+}
+
 /* For smaller screens */
 @media only screen and (max-width: 1024px) {
     .content {
@@ -117,6 +125,39 @@ a:hover {
     .bottombar {
         margin-left: 2%;
         margin-right: 2%;
+    }
+
+    /* Navbar for Mobile */
+    @media only screen and (max-width: 845px) {
+        body {
+            font-size: large;
+        }
+        .topbar {
+            font-size: 120%;
+        }
+    }
+
+    /* Navbar for Mobile */
+    @media only screen and (max-width: 680px) {
+        .topbar {
+            font-size: 110%;
+        }
+    }
+
+    /* Navbar for Mobile */
+    @media only screen and (max-width: 590px) {
+        .topbar {
+            font-size: larger;
+        }
+
+        .notMobileTopBar {
+            display: none;
+        }
+
+        .mobileTopBar {
+            display: flex;
+            margin-top: 8px;
+        }
     }
 }
 
