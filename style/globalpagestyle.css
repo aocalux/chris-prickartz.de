@@ -4,11 +4,21 @@ body {
     font-size: larger;
 }
 
+.topbar .isActive {
+    color: white;
+}
+
+.topbar a {
+    color: #141414;
+    font-weight: bold;
+}
+
 .isActive {
-    color: rgb(0, 0, 0);
-    background-color: rgba(224, 255, 255, 0.847);
+    border: 2px;
+    color: #e122b1;
+    background-color: rgba(156, 33, 90, 0.753);
     padding: 2px;
-    border-radius: 2px;
+    border-radius: 6px;
     text-decoration: none;
 }
 
@@ -18,7 +28,7 @@ body {
 }
 
 .content a {
-    color: rgb(255, 140, 234);
+    color: rgba(255, 140, 234, 0.783);
 }
 
 .content a:hover {
@@ -57,12 +67,12 @@ a {
 }
 
 a:hover {
-    color: lightcyan;
+    color: rgb(104, 32, 100);
     text-decoration: none;
 }
 
 .isActive:hover {
-    color: #383838;
+    color: #dbbdd8;
 }
 
 .title {
@@ -73,6 +83,10 @@ a:hover {
     margin-top: 30px;
     margin-bottom: 0px;
     color: whitesmoke;
+    background: linear-gradient(to right, #e122b1, #940ea9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
 }
 
@@ -81,11 +95,12 @@ a:hover {
     font-size: x-large;
     font-weight: bold;
     background-color: rgb(88, 40, 91);
+    background: linear-gradient(to right, #b3b3b3, #d4c1d3);
     margin-top: 25px;
     margin-left: 10%;
     margin-right: 10%;
-    color: whitesmoke;
-    border-radius: 4px;
+    color: black;
+    border-radius: 10px;
 }
 
 .bottombar {
@@ -97,10 +112,15 @@ a:hover {
     margin-right: 10%;
 }
 
+.bottombar a:hover {
+    text-decoration: underline;
+    color: #e122b169;
+}
+
 .bottombarTrenner {
-    border: 2px;
-    border-style: solid;
-    border-radius: 4px;
+    background: linear-gradient(to right, #e1e1e1, #d9d8d8);
+    border-radius: 10px;
+    padding: 2px;
     background-color: rgb(88, 40, 91);
     border-color: rgb(88, 40, 91);
     margin-bottom: 5px;
