@@ -5,8 +5,11 @@ body {
 }
 
 .isActive {
-    color: darkorange;
-    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color: rgba(224, 255, 255, 0.847);
+    padding: 2px;
+    border-radius: 2px;
+    text-decoration: none;
 }
 
 .content {
@@ -15,32 +18,32 @@ body {
 }
 
 .content a {
-    color: yellow;
+    color: rgb(255, 140, 234);
 }
 
 .content a:hover {
-    color: yellow;
+    color: rgb(252, 121, 184);
     text-decoration: underline;
 }
 
 .content h5 {
-    color: rgb(86, 86, 209);
+    color: rgb(255, 140, 247);
 }
 
 .content h4 {
-    color: rgb(86, 86, 209);
+    color: rgb(255, 140, 247);
 }
 
 .content h3 {
-    color: rgb(86, 86, 209);
+    color: rgb(255, 140, 247);
 }
 
 .content h2 {
-    color: rgb(86, 86, 209);
+    color: rgb(255, 140, 247);
 }
 
 .content h1 {
-    color: rgb(86, 86, 209);
+    color: rgb(255, 140, 247);
 }
 
 .content .siteTitle {
@@ -58,26 +61,31 @@ a:hover {
     text-decoration: none;
 }
 
+.isActive:hover {
+    color: #383838;
+}
+
 .title {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
-    font-weight: bold;
     font-size: 300%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 30px;
+    margin-bottom: 0px;
     color: whitesmoke;
+    text-transform: uppercase;
 }
 
 .topbar {
     text-align: center;
     font-size: x-large;
     font-weight: bold;
-    background-color: darkslategrey;
+    background-color: rgb(88, 40, 91);
     margin-top: 25px;
     margin-left: 10%;
     margin-right: 10%;
     color: whitesmoke;
+    border-radius: 4px;
 }
 
 .bottombar {
@@ -90,10 +98,11 @@ a:hover {
 }
 
 .bottombarTrenner {
-    border: 3px;
+    border: 2px;
     border-style: solid;
-    background-color: darkslategray;
-    border-color: darkslategray;
+    border-radius: 4px;
+    background-color: rgb(88, 40, 91);
+    border-color: rgb(88, 40, 91);
     margin-bottom: 5px;
 }
 
@@ -123,8 +132,8 @@ a:hover {
     }
 
     .bottombar {
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
     }
 
     /* Navbar for Mobile */

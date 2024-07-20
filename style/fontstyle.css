@@ -1,31 +1,71 @@
-@font-face 
-{
+@font-face {
     font-family: ubuntu-regular;
-    src:url("/style/fonts/Ubuntu/Ubuntu-Regular.ttf");
+    src: url("/style/fonts/Ubuntu/Ubuntu-Regular.ttf");
 }
 
-@font-face 
-{
+@font-face {
     font-family: ubuntu-bold;
-    src:url("/style/fonts/Ubuntu/Ubuntu-Bold.ttf");
+    src: url("/style/fonts/Ubuntu/Ubuntu-Bold.ttf");
 }
 
-@font-face 
-{
+@font-face {
     font-family: ubuntu-italic;
-    src:url("/style/fonts/Ubuntu/Ubuntu-Italic.ttf");
+    src: url("/style/fonts/Ubuntu/Ubuntu-Italic.ttf");
 }
 
-body { font-family: ubuntu-regular }
-p { font-family: ubuntu-regular }
-h1 { font-family: ubuntu-bold }
-h2 { font-family: ubuntu-bold }
-h3 { font-family: ubuntu-bold }
-h4 { font-family: ubuntu-bold }
-h5 { font-family: ubuntu-bold }
-a { font-family: ubuntu-regular }
-b { font-family: ubuntu-bold }
-u { font-family: ubuntu-regular }
+@font-face {
+    font-family: gochihand-regular;
+    src: url("/style/fonts/GochiHand/GochiHand-Regular.ttf");
+}
+
+@font-face {
+    font-family: blackopsone-regular;
+    src: url("/style/fonts/BlackOpsOne/BlackOpsOne-Regular.ttf");
+}
+
+body {
+    font-family: ubuntu-regular
+}
+
+p {
+    font-family: ubuntu-regular
+}
+
+h1 {
+    font-family: ubuntu-bold
+}
+
+h2 {
+    font-family: ubuntu-bold
+}
+
+h3 {
+    font-family: ubuntu-bold
+}
+
+h4 {
+    font-family: ubuntu-bold
+}
+
+h5 {
+    font-family: ubuntu-bold
+}
+
+a {
+    font-family: ubuntu-regular
+}
+
+b {
+    font-family: ubuntu-bold
+}
+
+u {
+    font-family: ubuntu-regular
+}
+
+.title {
+    font-family: blackopsone-regular;
+}
 
 .small {
     font-family: ubuntu-regular;
