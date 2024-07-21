@@ -88,6 +88,8 @@ a:hover {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 20px;
 }
 
 .topbar {
@@ -171,6 +173,11 @@ a:hover {
         .topbar {
             font-size: 110%;
         }
+
+        .title {
+            letter-spacing: 2px;
+            word-spacing: 4px;
+        }
     }
 
     /* Navbar for Mobile */
@@ -186,6 +193,11 @@ a:hover {
         .mobileTopBar {
             display: flex;
             margin-top: 8px;
+        }
+
+        .title {
+            letter-spacing: 1px;
+            word-spacing: 2px;
         }
     }
 }
