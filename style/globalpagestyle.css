@@ -240,3 +240,99 @@ a:hover {
         margin-right: auto;
     }
 }
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #F9F9FB;
+        color: #15141A;
+      }
+      
+      .topbar .isActive {
+        color: #F5F5F5;
+      }
+      
+      .topbar a {
+        color: #F5F5F5;
+      }
+      
+      .isActive {
+        color: #e122b1;
+        background-color: rgba(228, 48, 132, 0.924);
+      }
+      
+      .content a {
+        color: rgb(182, 0, 206)
+      }
+      
+      .content a:hover {
+        color: rgb(92, 6, 98);
+      }
+      
+      .content h5 {
+        color: #15141A;
+      }
+      
+      .content h4 {
+        color: #15141A;
+      }
+      
+      .content h3 {
+        color: #15141A;
+      }
+      
+      .content h2 {
+        color: #15141A;
+      }
+      
+      .content h1 {
+        color: #15141A;
+      }
+      
+      .content .siteTitle {
+        color: darkorange;
+      }
+      
+      a {
+        color: #15141A;
+      }
+      
+      a:hover {
+        color: rgb(104, 32, 100);
+      }
+      
+      .topbar a:hover {
+        color: #c302c0;
+      }
+
+      .topbar .isActive:hover {
+        color: #dfa2de;
+      }
+      
+      .title {
+        color: #15141A;
+        background: linear-gradient(to right, #b61b8f, #700b7f);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
+      .topbar {
+        background-color: #F5F5F5;
+        background: black;
+        color: black;
+      }
+      
+      .bottombar {
+        color: #000000;
+      }
+      
+      .bottombar a:hover {
+        color: #5a5a5a
+      }
+      
+      .bottombarTrenner {
+        background: black;
+        background-color: #000000;
+        border-color: #000000;
+      }
+}
