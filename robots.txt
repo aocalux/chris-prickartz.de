@@ -13,4 +13,5 @@ Disallow: /vorlage_weiterleitung.html
 Disallow: /style/fonts/
 Disallow: /.nojekyll
 Disallow: /.well-known
+Disallow: /datenschutz/
 Sitemap: https://chris-prickartz.de/sitemap.xml
