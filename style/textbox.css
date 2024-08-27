@@ -26,19 +26,19 @@ textarea {
 
 @media only screen and (max-width: 845px) {
   textarea {
-    width: 95%;
+    width: 94%;
   }
 }
 
 @media only screen and (max-width: 680px) {
   textarea {
-    width: 95%;
+    width: 94%;
   }
 }
 
 @media only screen and (max-width: 590px) {
   textarea {
-    width: 95%;
+    width: 94%;
   }
 }
 
