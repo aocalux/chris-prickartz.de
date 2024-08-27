@@ -20,25 +20,25 @@ textarea {
 
 @media only screen and (max-width: 1024px) {
   textarea {
-    width: 98.3%;
+    width: 98%;
   }
 }
 
 @media only screen and (max-width: 845px) {
   textarea {
-    width: 98.1%;
+    width: 97.6%;
   }
 }
 
 @media only screen and (max-width: 680px) {
   textarea {
-    width: 97.8%;
+    width: 97.2%;
   }
 }
 
 @media only screen and (max-width: 590px) {
   textarea {
-    width: 97.5%;
+    width: 97%;
   }
 }
 
