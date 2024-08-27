@@ -6,7 +6,8 @@
 }
 
 textarea {
-  width: 98.6%;
+  width: 98.8%;
+  margin-right: 0.2%;
   height: 150px;
   margin-left: 0.2%;
   font-family: monospace;
@@ -15,6 +16,30 @@ textarea {
   min-height: 150px;
   white-space: pre-wrap;
   border-radius: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  textarea {
+    width: 98.6%;
+  }
+}
+
+@media only screen and (max-width: 845px) {
+  textarea {
+    width: 98.4%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  textarea {
+    width: 98.2%;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  textarea {
+    width: 98%;
+  }
 }
 
 button {
