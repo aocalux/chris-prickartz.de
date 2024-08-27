@@ -26,13 +26,13 @@ textarea {
 
 @media only screen and (max-width: 845px) {
   textarea {
-    width: 96.6%;
+    width: 96%;
   }
 }
 
 @media only screen and (max-width: 680px) {
   textarea {
-    width: 96.4%;
+    width: 96%;
   }
 }
 
