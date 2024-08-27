@@ -1,0 +1,83 @@
+.code-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 98.8%;
+  height: 150px;
+  margin-left: 0.3%;
+  font-family: monospace;
+  font-size: larger;
+  resize: vertical;
+  min-height: 150px;
+  white-space: pre-wrap;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 0.3%;
+}
+
+#copyButton {
+  background-color: rgba(180, 33, 153, 0.939);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#copyButton:hover {
+  background-color: rgba(219, 41, 186, 0.939);
+}
+
+#downloadButton {
+  background-color: rgba(180, 33, 153, 0.939);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#downloadButton:hover {
+  background-color: rgba(219, 41, 186, 0.939);
+}
+
+@media (prefers-color-scheme: dark) {
+  .code-container {
+    border: 1px solid #444;
+    background-color: #222;
+  }
+
+  textarea {
+    color: whitesmoke;
+    background-color: #333;
+  }
+
+  #copyButton {
+    background-color: #8800ffc0;
+    color: white;
+  }
+
+  #copyButton:hover {
+    background-color: #aa00ffc4;
+  }
+
+  #downloadButton {
+    background-color: #8800ffc0;
+    color: white;
+  }
+
+  #downloadButton:hover {
+    background-color: #aa00ffc4;
+  }
+}
