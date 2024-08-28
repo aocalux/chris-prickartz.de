@@ -5,6 +5,11 @@
   border-radius: 5px;
 }
 
+.code-container big {
+  margin-left: 2px;
+  line-height: 32px;
+}
+
 .textare-div {
   display: flex;
   justify-content: center;
