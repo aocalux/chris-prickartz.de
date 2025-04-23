@@ -76,6 +76,8 @@ a:hover {
 }
 
 .title {
+    align-items: center;
+    align-self: center;
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
@@ -90,6 +92,12 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 10px;
     word-spacing: 20px;
+}
+
+.title img {
+    margin: -15px;
+    width: 20%;
+    height: 20%;
 }
 
 .topbar {
