@@ -1,4 +1,12 @@
 # This robots.txt file controls crawling of URLs under https://chris-prickartz.de.
+
+# Block the Internet Archive / Wayback Machine crawlers
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
 User-agent: *
 Disallow: /go/
 Disallow: /mail/
