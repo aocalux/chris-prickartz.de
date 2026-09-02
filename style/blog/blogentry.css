@@ -1,0 +1,45 @@
+.date {
+    font-size: smaller;
+}
+
+.first_paragraph {
+    font-style: italic;
+}
+
+.back_button a {
+    font-style: italic;
+    text-decoration: underline;
+    color: gray;
+}
+
+.back_button a:hover {
+    color: darkgray;
+}
+
+.content {
+    margin-left: 20%;
+    margin-right: 20%;
+    width: inherit;
+    hyphens: auto;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.blog_mail {
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dddddd;
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding-left: 5px;
+}

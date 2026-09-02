@@ -1,0 +1,32 @@
+.list-j {
+    margin-left: 0.14%;
+}
+
+.entry-list {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date {
+    width: 10vw;
+    font-size: 1.05em;
+}
+
+table {
+    border: 2px solid rgb(77, 77, 77);
+    border-radius: 5px;
+    border-collapse: collapse;
+    text-align: left;
+    margin-right: 3%;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid rgb(56, 56, 56);
+    overflow: hidden;
+    padding: 4px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 1.05em;
+}
