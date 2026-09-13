@@ -27,7 +27,7 @@ function downloadPGPKey(keyText) {
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'publickey_encrypted@chris-prickartz.de.asc';
+  a.download = 'publickey_prickartz@proton.me.asc';
   a.click();
 
   URL.revokeObjectURL(url);
